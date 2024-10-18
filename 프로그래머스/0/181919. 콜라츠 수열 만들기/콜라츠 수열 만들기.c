@@ -13,5 +13,6 @@ int* solution(int n) {
         answer[i] = n;
         i++;
 }
+   answer =  (int*)realloc(answer, sizeof(int) * i);
     return answer;
 }
